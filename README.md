@@ -31,15 +31,16 @@
 DevOps engineer working on **CI/CD pipelines, Kubernetes and observability** — mostly inside the Jenkins
 ecosystem: writing plugins, wiring it into monitoring stacks, and building the small tools that are missing.
 
-Ten years on this account, 43 self-built repositories, and a habit of turning repetitive ops work into scripts.
+Ten years on this account, 50 self-built repositories, and a habit of turning repetitive ops work into scripts —
+lately: daily GitHub digests, a frontend engineering encyclopedia, and agent skills.
 
 | | |
 |:---|:---|
 | 📍 based in | China · UTC+8 |
 | 🛠 focus | CI/CD automation · Kubernetes ops · observability |
-| 🔭 now | Jenkins plugin development · build analytics |
+| 🔭 now | daily GitHub radar · frontend engineering book · agent skills |
 | ✍️ notes | writing things down at [leoyim.cn](http://leoyim.cn/) |
-| 🤝 ask me about | Jenkins plugins · self-hosted infra · RSS readers |
+| 🤝 ask me about | Jenkins plugins · self-hosted infra · RSS readers · agent skills |
 
 ---
 
@@ -94,6 +95,9 @@ Python tooling     : ███████████████░░░░�
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
   <img src="https://img.shields.io/badge/Vue%203-42B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue 3">
   <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro">
+  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Tailwind-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind">
   <img src="https://img.shields.io/badge/Tauri-FFC131?style=flat-square&logo=tauri&logoColor=white" alt="Tauri">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
@@ -109,11 +113,13 @@ Python tooling     : ███████████████░░░░�
 
 | repo | what it does |
 |:---|:---|
+| **[`github-opensource-radar`](https://github.com/leoyim/github-opensource-radar)** | A daily GitHub trending digest rebuilt as a static Astro site — read-only data ingest, schema-checked snapshots and Pages deploys on every data push. <br> <img src="https://img.shields.io/badge/-Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro"> <img src="https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"> <br> [`repo ↗`](https://github.com/leoyim/github-opensource-radar) · [`live ↗`](https://osradar.leoyim.cn/) |
+| **[`frontend-engineering`](https://github.com/leoyim/frontend-engineering)** | An eight-part encyclopedia of frontend engineering, grown out of a real three-day teaching session — it explains why the tooling works, not just how to configure it. <br> <img src="https://img.shields.io/badge/-Docusaurus-3ECC5F?style=flat-square&logo=docusaurus&logoColor=white" alt="Docusaurus"> <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/-Mermaid-FF3670?style=flat-square&logo=mermaid&logoColor=white" alt="Mermaid"> <br> [`repo ↗`](https://github.com/leoyim/frontend-engineering) · [`live ↗`](http://ebook.leoyim.cn/frontend-engineering) |
+| **[`frontend-engineering-agent`](https://github.com/leoyim/frontend-engineering-agent)** | A runnable one-on-one tutor for that encyclopedia: chat UI, OpenAI-compatible model calls and persisted learning state, on Node built-ins with zero npm dependencies. <br> <img src="https://img.shields.io/badge/-Node-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node"> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"> <img src="https://img.shields.io/badge/-OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI API"> <br> [`repo ↗`](https://github.com/leoyim/frontend-engineering-agent) · [`live ↗`](https://app.leoyim.cn/frontend-engineering-agent) |
+| **[`galaxy-visualization`](https://github.com/leoyim/galaxy-visualization)** | A 3D tour of the nearby universe — 12 galaxies, the Local Group, the Milky Way and the Solar System at measured distances, with no backend and no external requests. <br> <img src="https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"> <img src="https://img.shields.io/badge/-Static%20site-58A6FF?style=flat-square" alt="Static site"> <br> [`repo ↗`](https://github.com/leoyim/galaxy-visualization) · [`live ↗`](http://galaxy.leoyim.cn/) |
 | **[`jenkins-role-strategy-admin-ui`](https://github.com/leoyim/jenkins-role-strategy-admin-ui)** | A standalone admin UI for Jenkins' Role Strategy plugin — instant search and incremental saves instead of the sluggish full-page submit. <br> <img src="https://img.shields.io/badge/-Vue%203-42B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue 3"> <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/-Node-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node"> <br> [`repo ↗`](https://github.com/leoyim/jenkins-role-strategy-admin-ui) |
 | **[`kingbird`](https://github.com/leoyim/KingBird)** | A local-first multi-platform RSS reader. One codebase ships to the web and to desktop via Tauri v2, with everything kept in local storage. <br> <img src="https://img.shields.io/badge/-React%2018-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 18"> <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/-Tauri%20v2-FFC131?style=flat-square&logo=tauri&logoColor=white" alt="Tauri v2"> <br> [`repo ↗`](https://github.com/leoyim/KingBird) · [`live ↗`](http://kingbird.leoyim.cn/) |
 | **[`jenkins-monitoring-dashboard`](https://github.com/leoyim/jenkins-monitoring-dashboard)** | Grafana dashboards for Jenkins observability, built on the Prometheus plugin: queue backlog, concurrent builds, executor utilization and job health. <br> <img src="https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana"> <img src="https://img.shields.io/badge/-Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus"> <img src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins"> <br> [`repo ↗`](https://github.com/leoyim/jenkins-monitoring-dashboard) |
-| **[`VS-Code-ShortCut-Keys-Online`](https://github.com/leoyim/VS-Code-ShortCut-Keys-Online)** | A searchable, keyboard-first cheat sheet of VS Code shortcuts, with clean typography and zero loading friction. <br> <img src="https://img.shields.io/badge/-Vue%203-42B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue 3"> <img src="https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"> <img src="https://img.shields.io/badge/-Tailwind-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind"> <br> [`repo ↗`](https://github.com/leoyim/VS-Code-ShortCut-Keys-Online) · [`live ↗`](https://leoyim.github.io/VS-Code-ShortCut-Keys-Online/) |
-| **[`Jenkins-Log-Analyzer`](https://github.com/leoyim/Jenkins-Log-Analyzer)** | A Python analyzer that cuts through failed-build noise and surfaces the lines most likely to explain why the pipeline broke. <br> <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins"> <br> [`repo ↗`](https://github.com/leoyim/Jenkins-Log-Analyzer) |
 | **[`jenkins-plugin-skeleton-generator-skill`](https://github.com/leoyim/jenkins-plugin-skeleton-generator-skill)** | An agent skill that turns one sentence into a buildable Jenkins plugin skeleton for a given Jenkins/JDK version. <br> <img src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins"> <img src="https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"> <img src="https://img.shields.io/badge/-Agent%20Skill-58A6FF?style=flat-square" alt="Agent Skill"> <br> [`repo ↗`](https://github.com/leoyim/jenkins-plugin-skeleton-generator-skill) · [`skillhub ↗`](https://www.skillhub.cn/skills/jenkins-plugin-skeleton-generator-skill) |
 
 <details>
@@ -122,10 +128,15 @@ Python tooling     : ███████████████░░░░�
 | repo | what it is |
 |:---|:---|
 | [`sharelibrary`](https://github.com/leoyim/sharelibrary) · [`jenkinslib`](https://github.com/leoyim/jenkinslib) | Jenkins shared libraries (Groovy) |
+| [`jenkins-pipeline-libraries`](https://github.com/leoyim/jenkins-pipeline-libraries) | Enterprise Jenkins shared library: one-call pipelines, readable logs, cleaned-up errors |
 | [`jenkins-plugin-demo`](https://github.com/leoyim/jenkins-plugin-demo) | A minimal, readable Jenkins plugin example |
 | [`jenkins-monitor`](https://github.com/leoyim/jenkins-monitor) | Experiments around Jenkins monitoring |
+| [`Jenkins-Log-Analyzer`](https://github.com/leoyim/Jenkins-Log-Analyzer) | A Python analyzer for failed-build logs |
 | [`container-deploy-shell`](https://github.com/leoyim/container-deploy-shell) | Containerized deployment scripts |
 | [`github-repo-datashow`](https://github.com/leoyim/github-repo-datashow) | A dashboard for visualizing repository data |
+| [`leoyim-doc-template`](https://github.com/leoyim/leoyim-doc-template) | A Docusaurus 3 doc/knowledge-base starter with Mermaid, source view and instant search |
+| [`leoyim-skills`](https://github.com/leoyim/leoyim-skills) | Agent skills — turn any reference image into a consistent 9:16 comic-collage poster |
+| [`VS-Code-ShortCut-Keys-Online`](https://github.com/leoyim/VS-Code-ShortCut-Keys-Online) | A searchable, keyboard-first VS Code shortcut cheat sheet · [`live ↗`](https://leoyim.github.io/VS-Code-ShortCut-Keys-Online/) |
 | [`typescript-learning`](https://github.com/leoyim/typescript-learning) | TypeScript notes with runnable examples · [`live ↗`](http://leoyim.github.io/typescript-learning/) |
 | [`blog`](https://github.com/leoyim/blog) | Hugo source of [leoyim.cn](http://leoyim.cn/) |
 | [`OS`](https://github.com/leoyim/OS) | Operating-system course experiments (C++) |
@@ -140,8 +151,8 @@ Python tooling     : ███████████████░░░░�
 
 <p>
   <img src="https://img.shields.io/github/followers/leoyim?style=flat-square&label=followers&labelColor=0D1117&color=58A6FF" alt="followers">
-  <img src="https://img.shields.io/badge/repositories-82-58A6FF?style=flat-square&labelColor=0D1117" alt="repositories">
-  <img src="https://img.shields.io/badge/hand--built-43-3FB950?style=flat-square&labelColor=0D1117" alt="hand-built projects">
+  <img src="https://img.shields.io/badge/repositories-90-58A6FF?style=flat-square&labelColor=0D1117" alt="repositories">
+  <img src="https://img.shields.io/badge/hand--built-50-3FB950?style=flat-square&labelColor=0D1117" alt="hand-built projects">
   <img src="https://img.shields.io/badge/here-since%202016-E3B341?style=flat-square&labelColor=0D1117" alt="since 2016">
 </p>
 
